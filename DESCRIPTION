@@ -1,0 +1,13 @@
+Package: montyhall
+Title: Simulate the Monty Hall Game
+Version: 0.0.0.9000
+Authors@R: 
+    person("Jacob", "Morgan", , "jhmorga3@asu.edu", role = c("aut", "cre"))
+Description: The montyhall package allows you to easily simulate the Monty Hall game. The goal of the game is to correctly pick the winning door, the one containing a car. After your initial selection, the host will open a losing door, one with a goat behind it. The host gives the contestant the opportunity to switch. The strategy of whether it is better to switch or stay with your original pick is the big question. This package allows you to easily test the best strategy by running all necessary steps in one easy to use function.
+Depends:
+    dplyr
+License: `use_mit_license()`, `use_gpl3_license()` or friends to pick a
+    license
+Encoding: UTF-8
+Roxygen: list(markdown = TRUE)
+RoxygenNote: 7.3.1
